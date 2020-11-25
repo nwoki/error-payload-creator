@@ -1,0 +1,30 @@
+{
+  "name": "error-payload-creator",
+  "version": "1.0.0",
+  "description": "Standard error payloads for rest applications. Handy to keep all in one place without having to rewrite the same code over and over again",
+  "main": "lib/error-payload-creator.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwoki/error-payload-creator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "error",
+    "payload-creator"
+  ],
+  "author": "Francesco Nwokeka <francesco.nwokeka@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwoki/error-payload-creator/issues"
+  },
+  "homepage": "https://github.com/nwoki/error-payload-creator#readme",
+  "dependencies": {
+    "jsonapi-serializer": "^3.6.6"
+  }
+}
